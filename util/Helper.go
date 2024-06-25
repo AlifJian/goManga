@@ -3,6 +3,7 @@ package util
 import (
 	"MangaApi/model"
 	"fmt"
+	"os"
 	"strconv"
 	"strings"
 
@@ -101,4 +102,13 @@ func ScrapeList(doc *goquery.Document, limit int, index int) *[]model.Manga {
 	})
 
 	return &dataCollection
+}
+
+func EnvPortOr(port string) string {
+	// If `PORT` variable in environment exists, return it
+	if envPort := os.Getenv("PORT"); envPort != "" {
+		return ":" + envPort
+	}
+	// Otherwise, return the value of `port` variable from function argument
+	return ":" + port
 }
