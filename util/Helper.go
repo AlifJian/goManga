@@ -91,7 +91,7 @@ func ScrapeList(doc *goquery.Document, limit int, index int) *[]model.Manga {
 					if !uploaderExist {
 						row.Uploader = "Not Found" + uploadTime
 					} else {
-						row.Uploader = strings.Split(uploader, "/")[3] + uploadTime
+						row.Uploader = strings.Split(uploader, "/")[3] + " " + uploadTime
 					}
 				}
 
