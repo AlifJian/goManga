@@ -58,7 +58,12 @@ List of websites available now :
    <td> `/manga/chapter/:id` </td>
    <td>GET</td>
    <td>200</td>
-   <td></td>
+   <td>
+   
+   ```
+   ```
+   
+   </td>
    <td>
 
    ```json
