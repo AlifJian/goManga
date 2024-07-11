@@ -21,11 +21,11 @@ List of websites available now :
   <td> 200 </td>
   <td>
 
-    ```
+   ```
     Request Params,
     limit : int [Default 10]
     index : int [Defautl 0]
-    ```
+   ```
 
   </td>
   <td>
@@ -58,11 +58,7 @@ List of websites available now :
    <td> `/manga/chapter/:id` </td>
    <td>GET</td>
    <td>200</td>
-   <td>
-   
-   ```
-   ```
-   
+   <td>   
    </td>
    <td>
 
@@ -91,12 +87,12 @@ List of websites available now :
   <td>200</td>
   <td>
 
-    ```
+   ```
     Request Params,
     title : String [default ""]
     limit : int [Default 10]
     index : int [Defautl 0]
-    ```
+   ```
 
   </td>
   <td>
