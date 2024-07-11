@@ -34,7 +34,8 @@ List of websites available now :
     {
     "Status" : 200,
     "Message": "OK",
-    "Data" : {
+    "Data" : [
+        {
         "Title": "How to Draw an Ellipse (Official)",
         "Indonesian": false,
         "Genre": "Korean , Manhwa , Webtoon , Yuri(GL) , Drama , Full Color , Mystery , Office Workers , Romance , Shoujo ai , Thriller , ",
@@ -44,7 +45,9 @@ List of websites available now :
         "Id": "2925592",
         "Chapter": "Episode 118",
         "Uploader": "byleth 20 mins ago"
-    },...
+    },
+    ...
+    ]
   }
   ```
   </td>
@@ -69,9 +72,48 @@ List of websites available now :
                 "https://xfs-n12.xfsbb.com/comic/7006/c34/668f714e1f0782a407a0d43c/58109931_940_1821_75144.webp",
                 "https://xfs-n17.xfsbb.com/comic/7006/c34/668f714e1f0782a407a0d43c/58109935_940_1821_23942.webp",
                 ...
+            ]
         }
     }
     ```
    </td>
+  </tr>
+
+  <tr>
+  <td>/manga/search</td>
+  <td>GET</td>
+  <td>200</td>
+  <td>
+
+    ```
+    Request Params,
+    title : String [default ""]
+    limit : int [Default 10]
+    index : int [Defautl 0]
+    ```
+  </td>
+  <td>
+
+    ```json
+    {
+        "Status" : 200,
+        "Message" : "OK",
+        "Data" : [
+             {
+                "Title": "Choujin X [Cryptarithm]",
+                "Indonesian": true,
+                "Genre": "English , Manga , Seinen(M) , Shounen(B) , ",
+                "MangaUrl": "https://wto.to/series/162184/choujin-x-cryptarithm",
+                "ChapterUrl": "",
+                "ImageUrl": "https://xfs-n02.xfsbb.com/thumb/W300/ampi/9d5/9d59f0acac8e76d8b487422576fe844a49a258ac_600_857_63052.jpeg",
+                "Id": "",
+                "Chapter": "",
+                "Uploader": ""
+            },
+            ...
+        ]
+    }
+    ```
+  </td>
   </tr>
 </table>
