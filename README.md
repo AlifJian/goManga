@@ -61,7 +61,7 @@ List of websites available now :
    <td>
 
     ```json
-    {
+        {
         "Status" : 200,
         "Message" : "OK",
         "Data" : {
@@ -91,11 +91,12 @@ List of websites available now :
     limit : int [Default 10]
     index : int [Defautl 0]
     ```
+
   </td>
   <td>
 
     ```json
-    {
+        {
         "Status" : 200,
         "Message" : "OK",
         "Data" : [
