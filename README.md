@@ -55,12 +55,12 @@ List of websites available now :
   </tr>
 
   <tr>
-   <td> `/manga/chapter/:id` </td>
-   <td>GET</td>
-   <td>200</td>
-   <td>   
-   </td>
-   <td>
+  <td> `/manga/chapter/:id` </td>
+  <td>GET</td>
+  <td>200</td>
+  <td>   
+  </td>
+  <td>
 
    ```json
        {
@@ -78,7 +78,7 @@ List of websites available now :
         }
     }
    ```
-   </td>
+  </td>
   </tr>
 
   <tr>
