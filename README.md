@@ -20,6 +20,12 @@ List of websites available now :
   <td> GET </td>
   <td> 200 </td>
   <td>
+
+    ```
+    Request Params,
+    limit : int [Default 10]
+    index : int [Defautl 0]
+    ```
   </td>
   <td>
  
