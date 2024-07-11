@@ -26,7 +26,7 @@ List of websites available now :
     limit : int [Default 10]
     index : int [Defautl 0]
     ```
-    
+
   </td>
   <td>
  
@@ -48,4 +48,30 @@ List of websites available now :
   }
   ```
   </td>
+  </tr>
+
+  <tr>
+   <td>`/manga/chapter/:id`</td>
+   <td>GET</td>
+   <td>200</td>
+   <td></td>
+   <td>
+
+    ```json
+    {
+        "Status" : 200,
+        "Message" : "OK",
+        "Data" : {
+            "imgLength": 62,
+            "imgUrl": [
+                "https://xfs-n07.xfsbb.com/comic/7006/c34/668f714e1f0782a407a0d43c/58109938_940_1821_44926.webp",
+                "https://xfs-n17.xfsbb.com/comic/7006/c34/668f714e1f0782a407a0d43c/58109945_940_1821_36236.webp",
+                "https://xfs-n12.xfsbb.com/comic/7006/c34/668f714e1f0782a407a0d43c/58109931_940_1821_75144.webp",
+                "https://xfs-n17.xfsbb.com/comic/7006/c34/668f714e1f0782a407a0d43c/58109935_940_1821_23942.webp",
+                ...
+        }
+    }
+    ```
+   </td>
+  </tr>
 </table>
