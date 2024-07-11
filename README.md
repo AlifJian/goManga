@@ -30,7 +30,7 @@ List of websites available now :
   </td>
   <td>
  
-  ```json
+   ```json
     {
     "Status" : 200,
     "Message": "OK",
@@ -50,6 +50,7 @@ List of websites available now :
     ]
   }
   ```
+
   </td>
   </tr>
 
@@ -60,8 +61,8 @@ List of websites available now :
    <td></td>
    <td>
 
-    ```json
-        {
+   ```json
+       {
         "Status" : 200,
         "Message" : "OK",
         "Data" : {
@@ -75,7 +76,7 @@ List of websites available now :
             ]
         }
     }
-    ```
+   ```
    </td>
   </tr>
 
@@ -95,8 +96,8 @@ List of websites available now :
   </td>
   <td>
 
-    ```json
-        {
+   ```json
+       {
         "Status" : 200,
         "Message" : "OK",
         "Data" : [
@@ -114,7 +115,7 @@ List of websites available now :
             ...
         ]
     }
-    ```
+   ```
   </td>
   </tr>
 </table>
