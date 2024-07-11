@@ -16,7 +16,7 @@ List of websites available now :
     <td>Endpoint</td><td>Method</td><td>Status</td><td>Request</td><td>Response</td>
   </tr>
   <tr>
-  <td> `/manga/` </td>
+  <td> `/manga` </td>
   <td> GET </td>
   <td> 200 </td>
   <td>
@@ -40,4 +40,5 @@ List of websites available now :
   ```
 
   </td>
+  <td> Coba</td>
 </table>
