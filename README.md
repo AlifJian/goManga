@@ -20,7 +20,8 @@ List of websites available now :
   <td> GET </td>
   <td> 200 </td>
   <td>
-
+  </td>
+  <td>
   ```json
   {
     "Status" : 200,
@@ -38,7 +39,5 @@ List of websites available now :
     },...
   }
   ```
-
   </td>
-  <td> Coba</td>
 </table>
