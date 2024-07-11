@@ -55,7 +55,7 @@ List of websites available now :
   </tr>
 
   <tr>
-   <td>`/manga/chapter/:id`</td>
+   <td> `/manga/chapter/:id` </td>
    <td>GET</td>
    <td>200</td>
    <td></td>
@@ -81,7 +81,7 @@ List of websites available now :
   </tr>
 
   <tr>
-  <td>/manga/search</td>
+  <td> `/manga/search` </td>
   <td>GET</td>
   <td>200</td>
   <td>
