@@ -7,7 +7,8 @@ type Manga struct {
 	MangaUrl   string
 	ChapterUrl string
 	ImageUrl   string
-	Id         string
+	SeriesId   string
+	ChapterId  string
 	Chapter    string
 	Uploader   string
 }
