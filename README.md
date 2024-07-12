@@ -57,8 +57,8 @@ List of websites available now :
 
   <tr>
   <td> `/btoto/series/:SeriesId` </td>
-  <td> GET </td>
-  <td> 200 </td>
+  <td>GET</td>
+  <td>200</td>
   <td></td>
   <td>
 
