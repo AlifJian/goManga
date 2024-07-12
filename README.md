@@ -16,7 +16,7 @@ List of websites available now :
     <td>Endpoint</td><td>Method</td><td>Status</td><td>Request</td><td>Response</td>
   </tr>
   <tr>
-  <td> `/manga` </td>
+  <td> `/btoto` </td>
   <td> GET </td>
   <td> 200 </td>
   <td>
@@ -42,7 +42,8 @@ List of websites available now :
         "MangaUrl": "https://wto.to/series/111564/how-to-draw-an-ellipse-official",
         "ChapterUrl": "https://wto.to/chapter/2925592",
         "ImageUrl": "https://xfs-n12.xfsbb.com/thumb/W300/ampi/4c7/4c72db554a16d59da10ff40e9e8535e5744710e0_1000_1500_486759.jpeg",
-        "Id": "2925592",
+        "SeriesId" : "111564",
+        "ChapterId": "2925592",
         "Chapter": "Episode 118",
         "Uploader": "byleth 20 mins ago"
     },
@@ -55,7 +56,7 @@ List of websites available now :
   </tr>
 
   <tr>
-  <td> `/manga/chapter/:id` </td>
+  <td> `/btoto/chapter/:id` </td>
   <td>GET</td>
   <td>200</td>
   <td>   
@@ -82,7 +83,7 @@ List of websites available now :
   </tr>
 
   <tr>
-  <td> `/manga/search` </td>
+  <td> `/btoto/search` </td>
   <td>GET</td>
   <td>200</td>
   <td>
@@ -102,16 +103,17 @@ List of websites available now :
         "Status" : 200,
         "Message" : "OK",
         "Data" : [
-             {
-                "Title": "Choujin X [Cryptarithm]",
-                "Indonesian": true,
-                "Genre": "English , Manga , Seinen(M) , Shounen(B) , ",
-                "MangaUrl": "https://wto.to/series/162184/choujin-x-cryptarithm",
-                "ChapterUrl": "",
-                "ImageUrl": "https://xfs-n02.xfsbb.com/thumb/W300/ampi/9d5/9d59f0acac8e76d8b487422576fe844a49a258ac_600_857_63052.jpeg",
-                "Id": "",
-                "Chapter": "",
-                "Uploader": ""
+            {
+                "Title": "Before the Spilled Milk Dries",
+                "Indonesian": false,
+                "Genre": "Japanese , Doujinshi , Yuri(GL) , Romance , Shoujo ai , Tragedy , ",
+                "MangaUrl": "https://wto.to/series/117377/before-the-spilled-milk-dries",
+                "ChapterUrl": "https://wto.to/chapter/2143116",
+                "ImageUrl": "https://xfs-n07.xfsbb.com/thumb/W300/ampi/e8a/e8a5754f166fba5dbcc32c5d71ca488ebfb6c4f2_375_533_83205.jpeg",
+                "SeriesId": "117377",
+                "ChapterId": "2143116",
+                "Chapter": "Ch.4",
+                "Uploader": "cherrimorre 558 days ago"
             },
             ...
         ]
