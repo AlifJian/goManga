@@ -56,11 +56,45 @@ List of websites available now :
   </tr>
 
   <tr>
-  <td> `/btoto/chapter/:id` </td>
+  <td> `/btoto/series/:SeriesId` </td>
+  <td> GET </td>
+  <td> 200 </td>
+  <td></td>
+  <td>
+
+  ```json
+     {
+        "Status": 200,
+        "Message": "OK",
+        "Data": {
+                "Title": "Before the Spilled Milk Dries",
+                "Cover": "https://xfs-n12.xfsbb.com/thumb/W600/ampi/e8a/e8a5754f166fba5dbcc32c5d71ca488ebfb6c4f2_375_533_83205.jpeg",
+                "Alias": "",
+                "Rank": "53585th, it has 10 monthly / 1.2K total views.",
+                "Authors": "Murasakino",
+                "Genres": "Doujinshi, Yuri(GL), Romance, Shoujo ai, Tragedy, ",
+                "OriginLang": "Japanese",
+                "TranslatedLang": "English",
+                "Status": "Completed",
+                "Release": "2019",
+                "Sinopsis": "Oneshot Stories written by Murasakino for Comitia140.",
+                "Chapter" : [
+                        {
+                            "Title": "Chapter 4",
+                            "ChapterId": "2143116"
+                        },
+                        ...
+                    ]
+            }
+  ```
+  </td>
+  </tr>
+
+  <tr>
+  <td> `/btoto/chapter/:ChapterId` </td>
   <td>GET</td>
   <td>200</td>
-  <td>   
-  </td>
+  <td></td>
   <td>
 
    ```json
