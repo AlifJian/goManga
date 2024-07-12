@@ -86,6 +86,7 @@ List of websites available now :
                         ...
                     ]
             }
+     }
   ```
   </td>
   </tr>
