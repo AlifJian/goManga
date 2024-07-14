@@ -37,6 +37,7 @@ func Route(app *fiber.App) {
 			Data:    *data,
 		})
 	})
+
 	// Mendapatkan Image berdasarkan ID Chapter
 	btoto.Get("/chapter/:id", func(c *fiber.Ctx) error {
 		id := c.Params("id")
