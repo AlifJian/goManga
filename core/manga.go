@@ -19,12 +19,12 @@ func GetMangaHome(limit int, index int) *[]model.Manga {
 
 	res, err := http.Get("https://mangatoto.org")
 	if err != nil {
-		log.Fatal(err)
+		panic(err)
 	}
 	defer res.Body.Close()
 
 	if res.StatusCode != 200 {
-		log.Fatalf("ERROR Code: %d Status : %s", res.StatusCode, res.Status)
+		panic("ERROR Code Status : " + res.Status)
 	}
 
 	doc, err := goquery.NewDocumentFromReader(res.Body)
@@ -33,7 +33,7 @@ func GetMangaHome(limit int, index int) *[]model.Manga {
 	// fmt.Println(gohtml.Format(html))
 
 	if err != nil {
-		log.Fatal("ERROR: ", err)
+		panic(err)
 	}
 	dataCollection := scrapeList(doc, limit, index)
 	return dataCollection
